@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS count FROM FOOD WHERE FOOD_NAME = (:dupes) AND FOOD_TYPE = (:type_dupes)

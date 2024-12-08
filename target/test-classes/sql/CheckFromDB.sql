@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS count FROM FOOD WHERE FOOD_NAME = (:name) AND FOOD_TYPE = (:type) AND FOOD_TYPE = (:exot)
